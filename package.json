@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-lander",
-  "author": "Hunter Chang",
-  "repository": "https://github.com/codebushi/gatsby-starter-lander",
-  "version": "1.0.0",
+  "name": "fogc",
+  "author": "Al McKinlay",
+  "repository": "https://github.com/McInkay/fogc",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "build": "gatsby build"
   },
   "dependencies": {

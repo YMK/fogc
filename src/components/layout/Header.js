@@ -1,6 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import LogoIcon from '../../svg/LogoIcon';
+import LogoIcon from '../../images/LogoIcon';
 import Button from '../Button';
 
 const Header = () => (
@@ -10,24 +10,24 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        Lander
+        Friends of Gordon Cottage
       </div>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4" href="#features">
-          Features
+        <AnchorLink className="px-4" href="#about">
+          About Us
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Services
+        <AnchorLink className="px-4" href="#getinvolved">
+          Get Involved
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
+        <AnchorLink className="px-4" href="#feedback">
+          Feedback
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+        <AnchorLink className="px-4" href="#contact">
+          Contact
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <Button className="text-sm">Donate</Button>
       </div>
     </div>
   </header>
