@@ -28,9 +28,6 @@ const Header = () => (
           Contact
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
-        <Button className="text-sm">Donate</Button>
-      </div>
     </div>
   </header>
 );
