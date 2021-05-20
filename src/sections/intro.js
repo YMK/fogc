@@ -2,7 +2,7 @@ import React from 'react';
 import HeroImage from '../images/hero.jpg';
 
 export default () => (
-    <section id="intro" className="pt-20 md:pt-40">
+    <section id="intro" className="pt-20">
         <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-none">
